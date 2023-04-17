@@ -1,0 +1,119 @@
+.calculator {
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+/* 
+  Certainly! This is a block of CSS code that styles the calculator container on the web page. Here's what each line does:
+  
+  1. .calculator is a CSS class selector that targets the div element with class="calculator" in the HTML code.
+  
+  2. width: 300px; sets the width of the calculator container to 300 pixels.
+  
+  3. margin: 20px auto; sets a margin of 20 pixels on the top and bottom, and centers the container horizontally using auto for the left and right margins.
+  
+  4. padding: 10px; adds 10 pixels of padding to the inside of the container, which gives some space between the border and the contents.
+  
+  5. border: 1px solid #ccc; adds a 1-pixel solid border around the container, with a color of #ccc (light gray).
+  
+  6. border-radius: 5px; sets the border radius of the container to 5 pixels, which rounds the corners of the border.
+  
+  7. text-align: center; centers the contents of the container horizontally, which centers the input field and buttons.
+  */
+
+.btn-row {
+  margin: 5px 0;
+}
+/* 
+  Certainly! This is a block of CSS code that styles the button rows within the calculator container. Here's what each line does:
+  
+  1. .btn-row is a CSS class selector that targets the div elements with class="btn-row" in the HTML code.
+  
+  2. margin: 5px 0; sets a margin of 5 pixels on the top and bottom of the button row, and 0 pixels on the left and right. This creates 
+      a small space between each row of buttons, which makes them easier to distinguish from each other.
+  */
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+/* 
+  Sure, this is a block of CSS code that styles the buttons within the calculator container. Here's what each line does:
+  
+  1. 'button' is a CSS selector that targets all 'button' elements in the HTML code.
+  
+  2. 'width: 50px;' and 'height: 50px;' sets the width and height of the buttons to 50 pixels, making them square.
+  
+  3. 'margin: 0 5px;' sets a margin of 0 pixels on the top and bottom of the buttons, and 5 pixels on the left and right. This creates a 
+      small space between each button, making them easier to distinguish from each other.
+  
+  4. 'font-size: 20px;' sets the font size of the text inside the buttons to 20 pixels.
+  
+  5. 'border: 1px solid #ccc;' adds a 1-pixel solid border around the buttons with a color of #ccc (a light gray).
+  
+  6. 'border-radius: 5px;' adds a rounded border with a radius of 5 pixels to the buttons, giving them a slightly softer look.
+  
+  7. 'cursor: pointer;' changes the cursor to a hand icon when hovering over the button, indicating that it can be clicked.
+  
+  8. 'background-color: #f2f2f2;' sets the background color of the buttons to #f2f2f2 (a light gray), which provides a subtle contrast to 
+      the white background of the calculator container.
+  */
+
+button:hover {
+  background-color: #ddd;
+}
+/* 
+  This code defines the hover effect on buttons in the calculator. When the user hovers over a button, the background color changes 
+  to #ddd. Here's what each line does:
+  
+  1. 'button:hover' selects any 'button' element when the user hovers over it.
+  2. 'background-color: #ddd' changes the background color of the button to #ddd when it's being hovered over.
+  */
+
+.clear-btn {
+  width: 100%;
+  margin: 5px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* 
+  This code defines the styling for the "Clear" button in the calculator. Here's what each line does:
+  
+  1. '.clear-btn' selects any element with the class "clear-btn".
+  2. 'width: 100%' sets the width of the button to 100% of its container.
+  3. 'margin: 5px 0' adds a 5px margin to the top and bottom of the button.
+  4. 'font-size: 16px' sets the font size of the text inside the button to 16 pixels.
+  5. 'border: none' removes the border of the button.
+  6. 'border-radius: 5px' adds a 5px border radius to the button.
+  7. 'cursor: pointer' changes the cursor to a pointer when the user hovers over the button, indicating that it is clickable.
+  8. 'background-color: #f44336' sets the background color of the button to a shade of red.
+  9. 'color: #fff' sets the color of the text inside the button to white.
+  */
+
+.clear-btn:hover {
+  background-color: #da190b;
+}
+
+/* 
+  This CSS code defines the style for a button with a class of "clear-btn" when the mouse hovers over it.
+  
+  1. 'background-color' sets the background color of the button to a dark red color (#da190b) when the mouse hovers over it.
+  2. ':hover' is a pseudo-class selector that applies the style to the button when the mouse is hovered over it.
+  3. 'color' sets the text color of the button to white (#fff).
+  
+  Overall, this code defines the hover effect for the "clear" button in the calculator interface.
+  */

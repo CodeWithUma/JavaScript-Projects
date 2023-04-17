@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="input">
+        <div class="btn-row">
+            <button onclick="addToInput('7')">7</button>
+            <button onclick="addToInput('8')">8</button>
+            <button onclick="addToInput('9')">9</button>
+            <button onclick="addToInput('/')">/</button>
+        </div>
+        <div class="btn-row">
+            <button onclick="addToInput('4')">4</button>
+            <button onclick="addToInput('5')">5</button>
+            <button onclick="addToInput('6')">6</button>
+            <button onclick="addToInput('*')">*</button>
+        </div>
+        <div class="btn-row">
+            <button onclick="addToInput('1')">1</button>
+            <button onclick="addToInput('2')">2</button>
+            <button onclick="addToInput('3')">3</button>
+            <button onclick="addToInput('-')">-</button>
+        </div>
+        <div class="btn-row">
+            <button onclick="addToInput('0')">0</button>
+            <button onclick="addToInput('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="addToInput('+')">+</button>
+        </div>
+        <button class="clear-btn" onclick="clearInput()">Clear</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- 
+EXPLANATION :-
+
+This is an HTML code for a simple calculator web page. Here's a breakdown of what each part does:
+
+    1. The '<!DOCTYPE html>' declaration is used to tell the browser what version of HTML page is using. In this case, 
+        it is using HTML5.
+
+    2. The '<html>' element is the root element of the HTML page.
+
+    3. The '<head>' element contains metadata about the document, including the character set used, the page title, and any 
+        external stylesheets.
+
+    4. The '<meta>' element sets the character encoding to UTF-8, which is a widely used character encoding for web pages.
+
+    5. The '<title>' element sets the title of the web page, which is displayed in the browser's title bar.
+
+    6. The '<link>' element links to an external stylesheet called "style.css". This file contains the CSS styles used to define 
+        the layout and appearance of the calculator interface.
+
+    7. The '<body>' element contains the visible content of the web page.
+
+    8. The '<div>' element with the 'class="calculator"' attribute creates a container for the calculator interface.
+
+    9. The '<input>' element with the 'type="text"' attribute creates a text input field for the user to enter expressions and 
+        see the results.
+
+    10. The '<button>' elements with the 'onclick' attributes call the 'addToInput()' function with the corresponding values when 
+        clicked. This adds the numbers and operators to the input field.
+
+    11. The '<button>' element with the 'onclick' attribute calls the 'calculate()' function when clicked. This evaluates the 
+        expression in the input field and displays the result.
+
+    12. The '<button>' element with the 'class="clear-btn"' attribute calls the 'clearInput()' function when clicked. This 
+        clears the input field.
+
+    13. The '<script>' element at the bottom links to an external JavaScript file called "script.js". This file contains the code 
+        that defines the 'addToInput()', 'clearInput()', and 'calculate()' functions used by the calculator interface.
+
+-->
